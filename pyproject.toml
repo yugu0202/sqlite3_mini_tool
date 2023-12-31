@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sqlite3-mini-tool"
+version = "0.1.0"
+description = ""
+authors = ["yugu0202 <applerin1119@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fire = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
